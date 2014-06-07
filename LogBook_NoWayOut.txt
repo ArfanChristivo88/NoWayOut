@@ -100,3 +100,17 @@ Samuel
 - Melengkapi info - info menjadi relawan Earth Our dan kampanye
 - Mengisikan slide presentasi dari file yang sudah ditentukan poin 6-9
 ************************************************************************************************
+6/6
+Arfan
+- Mengisikan slide presentasi dari file yang sudah ditentukan poin 1-3
+- 
+
+Chuck
+- Mengisikan slide presentasi dari file yang sudah ditentukan poin 4-5
+- Mengisikan slide presentasi dari file yang sudah ditentukan poin 10-12
+- Kendala, hasil editan index.jade tidak jalan.
+
+Samuel
+- Mengisikan slide presentasi dari file yang sudah ditentukan poin 6-9
+- Edit tampilan slide, dan memasukkan beberapa gambar untu slide
+************************************************************************************************

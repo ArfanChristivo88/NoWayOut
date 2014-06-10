@@ -135,9 +135,10 @@ Hesty
 - Pembaharuan tampilan slide presentasi.
 - Pembaharuan Warna pada slide presentasi.
 ************************************************************************************************
-8/6
+9/6
 Arfan
-- Pengecekan kesalahan pada slide presentasi.
+- 
 Chuck
--
+- Pengecekan kesalahan pada slide presentasi.
 Hesty
+- Perubahan Jenis huruf dan ukuran huruf pada slide presentasi

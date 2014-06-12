@@ -142,3 +142,11 @@ Chuck
 - Pengecekan kesalahan pada slide presentasi.
 Hesty
 - Perubahan Jenis huruf dan ukuran huruf pada slide presentasi
+************************************************************************************************
+10/6
+Arfan
+- 
+Chuck
+- 
+Hesty
+- Perubahan warna dan tampilan slide.

@@ -103,8 +103,7 @@ Samuel
 6/6
 Arfan
 - Mengisikan slide presentasi dari file yang sudah ditentukan poin 1-3
-- Belum melakukan commit terhadap task yang ditugaskan
-- Koneksi internet tidak ada
+- 
 
 Chuck
 - Mengisikan slide presentasi dari file yang sudah ditentukan poin 4-5
@@ -117,8 +116,6 @@ Samuel
 ************************************************************************************************
 7/6
 Arfan
-- Belum melakukan commit terhadap task yang ditugaskan
-- Koneksi internet tidak ada
 
 Chuck
 - Mengisikan slide presentasi dari file yang sudah ditentukan poin 10-12
@@ -127,3 +124,29 @@ Chuck
 Samuel 
 - Edit tampilan slide, dan memasukkan beberapa gambar untu slide
 - Melanjutkan tugas sebelumnya.
+************************************************************************************************
+8/6
+Arfan
+- Pengecekan poin-poin slide presentasi.
+-
+Chuck
+-
+Hesty
+- Pembaharuan tampilan slide presentasi.
+- Pembaharuan Warna pada slide presentasi.
+************************************************************************************************
+9/6
+Arfan
+- 
+Chuck
+- Pengecekan kesalahan pada slide presentasi.
+Hesty
+- Perubahan Jenis huruf dan ukuran huruf pada slide presentasi
+************************************************************************************************
+10/6
+Arfan
+- 
+Chuck
+- 
+Hesty
+- Perubahan warna dan tampilan slide.

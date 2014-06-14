@@ -4,7 +4,7 @@
 
 slide_width = 640px
 slide_height = 480px
-slide_background = #2d2d2d
+slide_background = #000000
 
 slide_transition_length = .6s
 slide_transition_easing = ease
@@ -166,8 +166,7 @@ body
   font-family: calibri
   font-size: 18px
   color: #e5edf4
-  background: #2d2d2d
-
+  background: #000000
 h1
   font-size: 72px
   line-height: 82px
@@ -202,3 +201,139 @@ p
 a
   color: #0089f3
   text-decoration: none
+
+article
+  overflow hidden
+  background-color #fff
+  perspective 600px
+  position absolute
+  height 100%
+  top 0
+  left 0
+  right 0
+  bottom 0
+  section
+    transform-style preserve-3d
+    width 800px
+    height 600px
+    position absolute
+    left 50%
+    margin-left -400px
+    top 50%
+    margin-top -300px
+    opacity 0
+    text-align center
+
+article
+  section
+    
+article.reveal h1,article.clean h1
+  text-shadow 0 1px 0 #ccc, 0 2px 0 #787878, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.15)
+
+article.reveal,article.clean
+    font-weight bold
+    background radial-gradient(circle, #D2D2D2, #1c1e20)
+    background-color #282a2d
+
+article.reveal,article.clean
+    section
+      color #fff
+      transition transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985)
+
+article
+  &.clean
+    section
+      &.bespoke-slide
+        transform-origin 50% 50% 0px
+      &.bespoke-inactive
+        opacity 0
+      &.bespoke-before
+        transform rotateY(180deg)
+      &.bespoke-before-1
+        transform rotateY(90deg)
+      &.bespoke-after
+        transform rotateY(-180deg)
+      &.bespoke-after-1
+        transform rotateY(-90deg)
+      
+article
+  &.third
+    section
+      &.bespoke-slide
+        transform-origin 50% 50% 350px
+      &.bespoke-inactive
+        opacity 0
+      &.bespoke-before
+        transform rotateY(180deg)
+      &.bespoke-before-1
+        transform rotateY(90deg)
+      &.bespoke-after
+        transform rotateY(-180deg)
+      &.bespoke-after-1
+        transform rotateY(-90deg)
+
+article
+  &.animalclean
+    section
+      &.bespoke-slide
+        transform-origin 0% 100% 0px
+      &.bespoke-inactive
+        opacity 0
+      &.bespoke-before
+          transform translateZ(40px) rotateY(-60deg) translateX(-400px) rotateZ(120deg)
+        &.bespoke-after
+          transform translate3d(50px, 0, -100px)
+
+article
+  &.intro
+    section
+      &.bespoke-slide
+        transform-origin 50% 50% 400px
+      &.bespoke-inactive
+        opacity 0
+      &.bespoke-before
+        transform rotateY(180deg)
+      &.bespoke-before-1
+        transform rotateY(90deg)
+      &.bespoke-after
+        transform rotateY(-180deg)
+      &.bespoke-after-1
+        transform rotateY(-90deg)
+
+
+article
+  &.secondpart
+    section
+      &.bespoke-before
+        transform translateX(-300px) rotateY(45deg) scale(0.4)
+      &.bespoke-before-3
+        transform translateX(-280px) rotateY(45deg) scale(0.4)
+        opacity 0.1
+      &.bespoke-before-2
+        transform translateX(-260px) rotateY(45deg) scale(0.4)
+        opacity 0.25
+      &.bespoke-before-1
+        transform translateX(-240px) rotateY(45deg) scale(0.4)
+        opacity 0.4
+      &.bespoke-after
+        transform translateX(300px) rotateY(-45deg) scale(0.4)
+      &.bespoke-after-1
+        transform translateX(240px) rotateY(-45deg) scale(0.4)
+        opacity 0.4
+      &.bespoke-after-2
+        transform translateX(260px) rotateY(-45deg) scale(0.4)
+        opacity 0.25
+      &.bespoke-after-3
+        transform translateX(280px) rotateY(-45deg) scale(0.4)
+        opacity 0.1
+      color #fff
+      -webkit-transform-origin: 50% -100% 0;
+
+article.clean.concave section.bespoke-before h2,
+article.clean.concave section.bespoke-after h2
+  opacity 0
+
+article.intro
+  background : radial-gradient(circle, #C8410A, #c4c4c4)
+
+

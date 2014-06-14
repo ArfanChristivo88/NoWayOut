@@ -8,9 +8,9 @@ slide_background = #000000
 
 slide_transition_length = .6s
 slide_transition_easing = ease
-slide_transition_rotate_y = -90deg
+slide_transition_rotate_y = -78deg
 // Safari bugs out on 3d transform-origins, so we have to fake it
-slide_transition_nudge_x = -200px
+slide_transition_nudge_x = -1000px
 
 bullet_transition_length = .3s
 bullet_transition_easing = ease
@@ -54,7 +54,7 @@ article
     transform slide_transition_length slide_transition_easing,
     opacity slide_transition_length slide_transition_easing,
     background slide_transition_length slide_transition_easing
-  transform-origin: 50% 50% 0
+  transform-origin: 0% 0% 0
   backface-visibility: hidden
   display: flex
   flex-direction: column

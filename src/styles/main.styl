@@ -4,13 +4,13 @@
 
 slide_width = 640px
 slide_height = 480px
-slide_background = #000000
+slide_background = #d2eef6
 
 slide_transition_length = .6s
 slide_transition_easing = ease
-slide_transition_rotate_y = -90deg
+slide_transition_rotate_y = -78deg
 // Safari bugs out on 3d transform-origins, so we have to fake it
-slide_transition_nudge_x = -100px
+slide_transition_nudge_x = -1000px
 
 bullet_transition_length = .3s
 bullet_transition_easing = ease
@@ -54,7 +54,7 @@ article
     transform slide_transition_length slide_transition_easing,
     opacity slide_transition_length slide_transition_easing,
     background slide_transition_length slide_transition_easing
-  transform-origin: 50% 50% 0
+  transform-origin: 0% 0% 0
   backface-visibility: hidden
   display: flex
   flex-direction: column
@@ -165,8 +165,8 @@ pre
 body
   font-family: calibri
   font-size: 18px
-  color: #e5edf4
-  background: #000000
+  color: #2a5561
+  background: #d2eef6
 h1
   font-size: 72px
   line-height: 82px
@@ -182,7 +182,7 @@ h3
   font-size: 24px
   font-weight: normal
   margin-bottom: 24px
-  color: #e5edf4
+  color: #092932
 
 hr
   visibility: hidden
